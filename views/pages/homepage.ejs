@@ -1,0 +1,12 @@
+<%- include('../partials/questions/head') %>
+<body>
+    <%- include('../partials/questions/header') %>
+  <div class="main">
+    <h2>Welcome!</h2>
+    <ol>
+        <% for(let i = 0; i < 10; i++){ %>
+        <li class='question'><a <%=`href=/question${i+1}`%>><%=`Question ${i+1}`%></a></li>
+        <% }; %>
+      </ol>
+  </div>
+</body>

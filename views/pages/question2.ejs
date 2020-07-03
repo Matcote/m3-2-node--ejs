@@ -22,5 +22,9 @@
         <!-- Keep that in mind for later. Everything between those brackets IS JavaScript. -->
       </div>
     </div>
+    <% const pageNum = 2 %>
+    <div>
+      <a href=<%-`../question${pageNum-1}` %>>Previous</a>     <a href=<%-`../question${pageNum+1}` %>>Next</a>
+    </div>
   </div>
 </body>

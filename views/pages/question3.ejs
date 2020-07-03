@@ -22,5 +22,9 @@
         <img src=<%-homer.imageUrl%> alt=<%-homer.name%>/>
       </div>
     </div>
+    <% const pageNum = 3 %>
+    <div>
+      <a href=<%-`../question${pageNum-1}` %>>Previous</a>     <a href=<%-`../question${pageNum+1}` %>>Next</a>
+    </div>
   </div>
 </body>
